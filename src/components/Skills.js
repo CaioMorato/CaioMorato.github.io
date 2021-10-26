@@ -2,7 +2,7 @@ function Skills() {
   return (
     <div id="skills">
       <h3>Habilidades</h3>
-      <div className="column-skills">
+      <div className="double-list-skills">
         <div className="frontend-skills">
           <ul>
             <li>React</li>
