@@ -4,6 +4,11 @@
   }
 }
 
+@media (min-width: 375px){
+  body {
+    /* background-repeat: no-repeat; */
+  }
+}
 
 @media (min-width: 1365px) {
   #about p {
