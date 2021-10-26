@@ -1,41 +1,100 @@
-/* --------------------------
-General config
--------------------------- */
+/* ---------------------------
+General
+--------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* --------------------------
-Main
--------------------------- */
-
-main {
-  text-align: center;
-  background-color: rgba(16, 22, 43, 0.55);
+body {
+  background-color: black;
 }
 
-/* --------------------------
+/* ---------------------------
 Header
--------------------------- */
+--------------------------- */
 
-#header nav ul {
-  list-style-type: none;
-  margin: 0.5rem;
-}
-
-#header nav ul li {
-  display: inline-block;
-  margin: 0 0.2rem;
-}
-
-#header a {
-  color: black;
+#header {
+  margin: 1.5rem auto;
 }
 
 #header h1,
 #header h2 {
-  margin: 0.3rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 36px;
+}
+
+#header h2 {
+  font-size: 22px;
+  margin: 0.7rem auto;
+}
+
+/* ---------------------------
+About
+--------------------------- */
+
+#about p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2.5rem 40px;
+  line-height: 25px;
+  letter-spacing: 11%;
+}
+
+/* ---------------------------
+Skills
+--------------------------- */
+
+#skills {
+  color: white;
+  display: flex;
+  flex-flow: column;
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+#skills h3 {
+  font-size: 23px;
+  font-weight: normal;
+}
+
+#skills ul {
+  list-style-type: none;
+}
+
+#skills .column-skills,
+#skills .row-skills {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#skills .column-skills {
+  display: flex;
+  flex-flow: row;
+}
+
+#skills .separator {
+  background-color: white;
+  width: 1px;
+}
+
+#skills .row-skills {
+  display: flex;
+}
+
+#skills .row-skills ul li {
+  display: inline-block;
 }
