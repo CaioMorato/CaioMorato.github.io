@@ -1,0 +1,17 @@
+@media (min-width: 450px) {
+  #nav button {
+    display: none;
+  }
+
+  #hero #nav #menu {
+    display: flex;
+    flex-flow: row;
+    gap: 0.6rem;
+    position: inherit;
+    background-color: #1f2235;
+  }
+
+  #hero #nav .hideMenu {
+    display: flex;
+  }
+}

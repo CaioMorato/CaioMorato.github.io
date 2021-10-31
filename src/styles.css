@@ -1,0 +1,51 @@
+/* ---------------------------
+General Config
+--------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2235;
+}
+
+/* ---------------------------
+Hero
+--------------------------- */
+
+#hero {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+#hero #header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hero #nav #menu {
+  list-style-type: none;
+  background-color: black;
+}
+
+#hero #nav .showMenu {
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  right: 0;
+  width: 30%;
+  text-align: center;
+}
+
+#hero #nav .hideMenu {
+  display: none;
+}
+
+#hero .showMenu li {
+  padding: 7px;
+}
