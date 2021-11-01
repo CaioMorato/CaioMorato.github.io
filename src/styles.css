@@ -108,6 +108,7 @@ Hero
 
 #hero .general-info .social-media a:hover {
   background-color: rgba(255, 255, 255, 0.03);
+  color: #0cf574;
 }
 
 #hero .social-media .social-media-icon {
