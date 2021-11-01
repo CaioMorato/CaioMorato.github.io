@@ -176,7 +176,7 @@ Projects
   transform: translateX(-50%);
 }
 
-#projects #project-card .overlay {
+.overlay {
   width: 200px;
   height: 200px;
   background-color: #0cf574;
@@ -188,10 +188,10 @@ Projects
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  transition: 800ms;
+  transition: 680ms;
 }
 
-#projects #project-card .overlay:hover {
+.overlay:hover {
   opacity: 100%;
 }
 
