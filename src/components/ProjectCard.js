@@ -8,6 +8,7 @@ function ProjectCard({ image, name, github, deploy, tags }) {
     <div id="project-card">
       <img src={image} alt={`Imagem do projeto ${name}`} size="200px"/>
       <div className="overlay">
+        a
         {/* <div className="project-name">{name}</div>
         <div className="project-buttons">
           <a href={github} target="_blank" rel="noreferrer">

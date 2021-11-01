@@ -161,18 +161,10 @@ Projects
 }
 
 #project-card .overlay {
-  align-items: center;
   background-color: #0cf574;
-  flex-flow: column;
   height: 100%;
-  opacity: 0%;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
-  transition: 680ms;
-}
-
-#project-card .overlay {
-  opacity: 100%;
 }
 
 /* 
