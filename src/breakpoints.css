@@ -8,10 +8,17 @@
     flex-flow: row;
     gap: 0.6rem;
     position: inherit;
-    background-color: #1f2235;
+    background-color: hsl(232, 26%, 16%);
+    font-size: larger;
   }
 
   #hero #nav .hideMenu {
     display: flex;
+  }
+
+  #hero,
+  #about,
+  #projects {
+    margin: auto 3rem;
   }
 }

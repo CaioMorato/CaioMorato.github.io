@@ -8,10 +8,15 @@ General Config
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   padding: 0;
+  margin: 0;
 }
 
 body {
   background-color: #1f2235;
+}
+
+#hero, #about, #projects {
+  margin: auto 1.2rem;
 }
 
 /* ---------------------------
@@ -76,11 +81,13 @@ Hero
 #hero .general-info h1 {
   color: #0cf574;
   font-size: 2rem;
+  margin: auto;
 }
 
 #hero .general-info .typewritter-container {
   display: inline-flex;
   font-size: 1.3rem;
+  margin: auto;
 }
 
 #hero .general-info .Typewriter {
@@ -90,12 +97,18 @@ Hero
 
 #hero .general-info .sm-about {
   font-size: 1.1rem;
+  margin: auto;
+}
+
+#hero .sm-about p {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2rem;
 }
 
 #hero .general-info .social-media {
   display: flex;
   gap: 0.8rem;
-  margin: 3rem auto;
+  margin: 3rem;
 }
 
 #hero .general-info .social-media a {
@@ -122,6 +135,11 @@ About
 
 #about {
   color: white;
+  margin: auto;
+}
+
+#about .about-info {
+  margin: 3rem auto;
 }
 
 #about .image-container {
@@ -132,12 +150,47 @@ About
   float: left;
   height: 100px;
   width: 100px;
+  margin: 7px 10px 5px 10px;
 }
 
-p:after {
-  clear: both;
-  content: '';
-  display: table;
+#about .about-info .p-container {
+  margin: 10px;
+}
+
+#about .p-container p {
+  line-height: 1.8rem;
+  letter-spacing: 0.05rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#about .about-info .cv-container {
+  background: hsl(147, 94%, 41%);
+  width: max-content;
+  height: max-content;
+  border-radius: 5px;
+  box-shadow: #1f2235;
+  margin: 1.5rem auto;
+  transition: 175ms;
+  padding: 7px 0;
+}
+#about .cv-container:hover {
+  transform: scale(1.1);
+}
+
+#about .cv-container:active {
+  transform: scale(0.99);
+}
+#about .cv-container .cv-button {
+  color: #1f2235;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+}
+
+#about .cv-button:active {
+  text-decoration: none;
+  outline: none;
+  color: #1f2235;
 }
 
 /* ---------------------------
@@ -213,4 +266,17 @@ Projects
   font-weight: bold;
   margin: 0.1rem 0.2rem;
   padding: 0 4px;
+}
+
+/* ---------------------------
+Footer
+--------------------------- */
+
+#footer {
+  background-color: #161827;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
 }

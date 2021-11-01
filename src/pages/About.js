@@ -1,5 +1,6 @@
 // styles
 import pfp from '../images/no-bg-pfp.png';
+import cv from '../cv-morato.pdf';
 
 function About() {
   return (
@@ -15,6 +16,11 @@ function About() {
             programação no começo de 2021. Sou um desenvolvedor fullstack com foco em back-end e
             estou em busca de minha primeira oportunidade no mercado de trabalho.
           </p>
+        </div>
+        <div className="cv-container">
+          <a href={cv} className="cv-button" download>
+            Currículo.pdf
+          </a>
         </div>
       </div>
     </section>
