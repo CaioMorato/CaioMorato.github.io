@@ -144,7 +144,7 @@ Projects
 }
 
 #projects #project-card {
-  margin: auto;
+  margin: 2rem auto;
   display: flex;
   position: relative;
 }
@@ -168,16 +168,16 @@ Projects
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  opacity: 100%;
+  opacity: 0%;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  transition: 800ms;
 }
 
 #projects #project-card .overlay:hover {
   opacity: 100%;
-  transition: 300ms;
 }
 
 #projects .overlay .project-name {
@@ -198,7 +198,7 @@ Projects
   padding: 1px 7px;
   text-align: center;
   border-radius: 5px;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .project-tags {
@@ -210,8 +210,9 @@ Projects
 
 #tag {
   background-color: #1f2235;
-  padding: 0 3px;
+  padding: 0 4px;
+  font-weight: bold;
   border-radius: 500px;
-  font-size: 0.6rem;
-  margin: 0.3rem 0.3rem;
+  font-size: 0.7rem;
+  margin: 0.1rem 0.2rem;
 }

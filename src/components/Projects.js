@@ -6,7 +6,6 @@ function Projects() {
       <h2>Projetos</h2>
       <div>
         <ProjectCard />
-        <ProjectCard />
       </div>
     </section>
   );
