@@ -163,7 +163,7 @@ Projects
 #project-card .overlay {
   background-color: #0cf574;
   height: 100%;
-  /* position: absolute; */
+  position: absolute;
   width: 100%;
 }
 
