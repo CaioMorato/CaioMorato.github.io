@@ -156,7 +156,12 @@ Projects
   width: max-content;
 }
 
-#projects #project-card img {
+#project-card:hover .overlay {
+  opacity: 100%;
+  display: flex;
+}
+
+#project-card img {
   border: 2px #0cf574 solid;
   width: 200px;
 }
@@ -164,19 +169,13 @@ Projects
 .overlay {
   align-items: center;
   background-color: #0cf574;
-  display: flex;
+  display: none;
   flex-flow: column;
   height: 100%;
   opacity: 0%;
   position: absolute;
-  transition: 680ms;
-  visibility: hidden;
   width: 100%;
-}
-
-#project-card:hover .overlay {
-  opacity: 100%;
-  visibility: visible;
+  transition: 680ms;
 }
 
 #projects .overlay .project-name {
