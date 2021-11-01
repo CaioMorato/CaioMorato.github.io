@@ -6,10 +6,9 @@ import { BsGithub, BsPlayFill } from 'react-icons/bs';
 function ProjectCard({ image, name, github, deploy, tags }) {
   return (
     <div id="project-card">
-      <img src={image} alt={`Imagem do projeto ${name}`} size="200px"/>
+      <img src={image} alt={`Imagem do projeto ${name}`} size="200px" />
       <div className="overlay">
-        a
-        {/* <div className="project-name">{name}</div>
+        <div className="project-name">{name}</div>
         <div className="project-buttons">
           <a href={github} target="_blank" rel="noreferrer">
             <BsGithub className="project-icons" size="30px" />
@@ -22,7 +21,7 @@ function ProjectCard({ image, name, github, deploy, tags }) {
           {tags.map((tag) => (
             <Tags tag={`${tag}`} />
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );
