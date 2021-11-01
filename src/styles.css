@@ -15,7 +15,9 @@ body {
   background-color: #1f2235;
 }
 
-#hero, #about, #projects {
+#hero,
+#about,
+#projects {
   margin: auto 1.2rem;
 }
 
@@ -108,7 +110,7 @@ Hero
 #hero .general-info .social-media {
   display: flex;
   gap: 0.8rem;
-  margin: 3rem;
+  margin: 3rem auto;
 }
 
 #hero .general-info .social-media a {
@@ -135,7 +137,6 @@ About
 
 #about {
   color: white;
-  margin: auto;
 }
 
 #about .about-info {
@@ -155,6 +156,10 @@ About
 
 #about .about-info .p-container {
   margin: 10px;
+}
+
+#about .p-skills-container .skills-container {
+  display: none;
 }
 
 #about .p-container p {

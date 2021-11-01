@@ -1,4 +1,10 @@
 @media (min-width: 450px) {
+  #hero,
+  #about,
+  #projects {
+    margin: auto 3rem;
+  }
+
   #nav button {
     display: none;
   }
@@ -6,7 +12,7 @@
   #hero #nav #menu {
     display: flex;
     flex-flow: row;
-    gap: 0.6rem;
+    gap: 1.2rem;
     position: inherit;
     background-color: hsl(232, 26%, 16%);
     font-size: larger;
@@ -16,9 +22,38 @@
     display: flex;
   }
 
-  #hero,
-  #about,
-  #projects {
-    margin: auto 3rem;
+  #hero .general-info .typewritter-container {
+    margin: 2rem 0;
+  }
+
+  #hero .general-info .sm-about p{
+    width: 40%;
+    margin: 2rem 0;
+    /* margin: auto; */
+  }
+
+  #about .p-skills-container {
+    display: flex;
+    margin: auto;
+  }
+
+  #about .p-skills-container .skills-container {
+    display: flex;
+    flex-flow: column;
+  }
+
+  #about .p-container {
+    width: 80%;
+  }
+
+  #about .skills-container {
+    /* width: 30%; */
+    text-align: center;
+  }
+
+  #about .skills-container ul {
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
   }
 }
