@@ -26,6 +26,7 @@ Hero
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* position: fixed; */
 }
 
 #hero #header #logo {
@@ -34,9 +35,21 @@ Hero
   color: #0cf574;
 }
 
+#hero #nav button {
+  background-color: #1f2235;
+  outline: none;
+  border: none;
+}
+
 #hero #nav #menu {
   list-style-type: none;
   background-color: black;
+}
+
+#hero #nav #menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 #hero #nav .showMenu {
@@ -44,6 +57,7 @@ Hero
   flex-flow: column;
   position: absolute;
   right: 0;
+  top: 1rem;
   width: 30%;
   text-align: center;
 }
@@ -140,6 +154,7 @@ Projects
 --------------------------- */
 
 #projects {
+  margin: 3rem auto;
   color: white;
 }
 

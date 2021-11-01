@@ -1,14 +1,10 @@
-// vitals
-import { useState } from 'react';
 // components
+import Header from '../components/Header';
 import Typewriter from 'typewriter-effect';
 // styles
-import { BsGithub, BsLinkedin, BsList, BsStackOverflow, BsEnvelope } from 'react-icons/bs';
-// import pfp from '../images/no-bg-pfp.png';
+import { BsGithub, BsLinkedin, BsStackOverflow, BsEnvelope } from 'react-icons/bs';
 
 function Hero() {
-  const [showMenu, setShowMenu] = useState(false);
-
   new Typewriter('#typewriter', {
     strings: ['Hello', 'World'],
     autoStart: true,
@@ -16,20 +12,7 @@ function Hero() {
 
   return (
     <div id="hero">
-      <header id="header">
-        <div id="logo">Morato</div>
-        <nav id="nav">
-          <button className="btn-menu" type="button" onClick={() => setShowMenu(!showMenu)}>
-            <BsList />
-          </button>
-          <ul id="menu" className={showMenu ? 'showMenu' : 'hideMenu'}>
-            <li>Início</li>
-            <li>Sobre</li>
-            <li>Projetos</li>
-            <li>Contato</li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <section className="general-info">
         <h1>Bem vindo!</h1>
         <div className="typewritter-container">
@@ -64,9 +47,6 @@ function Hero() {
             <BsEnvelope className="social-media-icon" size="25px" />
           </a>
         </div>
-        {/* <div className="pfp-container">
-          <img src={pfp} alt="Minha foto" />
-        </div> */}
       </section>
     </div>
   );

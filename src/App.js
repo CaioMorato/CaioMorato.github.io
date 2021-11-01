@@ -1,7 +1,7 @@
 // components
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
+import Hero from './pages/Hero';
+import About from './pages/About';
+import Projects from './pages/Projects';
 // styles
 import './styles.css';
 import './breakpoints.css';
