@@ -28,6 +28,12 @@ Hero
   justify-content: space-between;
 }
 
+#hero #header #logo {
+  font-size: x-large;
+  font-weight: bold;
+  color: #0cf574;
+}
+
 #hero #nav #menu {
   list-style-type: none;
   background-color: black;
@@ -49,3 +55,56 @@ Hero
 #hero .showMenu li {
   padding: 7px;
 }
+
+#hero .general-info {
+  margin: 5rem auto;
+}
+
+#hero .general-info h1 {
+  font-size: 2rem;
+  color: #0cf574;
+}
+
+#hero .general-info .typewritter-container {
+  display: inline-flex;
+  font-size: 1.3rem;
+}
+
+#hero .general-info .Typewriter {
+  margin: 0 0.4rem;
+  color: #0cf574;
+}
+
+#hero .general-info .sm-about {
+  font-size: 1.1rem;
+}
+
+#hero .general-info .social-media {
+  display: flex;
+  gap: 0.8rem;
+  margin: 3rem auto;
+}
+
+#hero .general-info .social-media a {
+  color: white;
+  display: flex;
+  padding: 15px;
+  border: 1px white solid;
+  border-radius: 50%;
+}
+
+#hero .general-info .social-media a:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+#hero .social-media .social-media-icon {
+  margin: auto;
+}
+
+/* #hero .general-info .pfp-container {
+  display: flex;
+}
+
+#hero .general-info .pfp-container img {
+  margin: auto;
+} */
