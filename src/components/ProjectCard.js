@@ -9,7 +9,7 @@ function ProjectCard({ image, name, github, deploy, tags }) {
       <img src={image} alt="" />
       <div className="overlay">
         <div className="project-name">{name}</div>
-        <div className="project-buttons">
+        {/* <div className="project-buttons">
           <a href={github} target="_blank" rel="noreferrer">
             <BsGithub className="project-icons" size="30px" />
           </a>
@@ -21,7 +21,7 @@ function ProjectCard({ image, name, github, deploy, tags }) {
           {tags.map((tag) => (
             <Tags tag={`${tag}`} />
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
