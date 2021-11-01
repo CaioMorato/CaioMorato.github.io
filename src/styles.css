@@ -166,12 +166,13 @@ Projects
   position: absolute;
   width: 100%;
   opacity: 0;
+  display: flex;
+  flex-flow: column;
 }
 
 #project-card:hover .overlay {
   opacity: 100;
 }
-
 
 #projects .overlay .project-name {
   color: #1f2235;
@@ -182,6 +183,8 @@ Projects
 #projects .overlay .project-buttons {
   display: flex;
   gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 #projects .overlay .project-buttons a {
