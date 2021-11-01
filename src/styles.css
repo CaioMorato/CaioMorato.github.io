@@ -171,11 +171,6 @@ Projects
   width: 200px;
 }
 
-#project-card:hover .overlay {
-  opacity: 100%;
-  visibility: visible;
-}
-
 .overlay {
   width: 200px;
   height: 200px;
@@ -190,6 +185,11 @@ Projects
   justify-content: center;
   transition: 680ms;
   visibility: hidden;
+}
+
+#project-card:hover .overlay {
+  opacity: 100%;
+  visibility: visible;
 }
 
 #projects .overlay .project-name {
