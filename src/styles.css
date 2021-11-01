@@ -173,6 +173,7 @@ Projects
 
 #project-card:hover .overlay {
   opacity: 100%;
+  visibility: visible;
 }
 
 .overlay {
@@ -188,6 +189,7 @@ Projects
   align-items: center;
   justify-content: center;
   transition: 680ms;
+  visibility: hidden;
 }
 
 #projects .overlay .project-name {
