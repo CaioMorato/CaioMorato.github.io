@@ -162,18 +162,17 @@ Projects
   margin: 2rem auto;
   display: flex;
   position: relative;
+  width: max-content;
+  height: max-content;
 }
 
 #projects #project-card img {
-  margin: auto;
   border: 2px #0cf574 solid;
+  width: 200px;
 }
 
-#projects #project-card button {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%);
+#project-card:hover .overlay {
+  opacity: 100%;
 }
 
 .overlay {
@@ -189,10 +188,6 @@ Projects
   align-items: center;
   justify-content: center;
   transition: 680ms;
-}
-
-.overlay:hover {
-  opacity: 100%;
 }
 
 #projects .overlay .project-name {
