@@ -7,6 +7,7 @@ General Config
 * {
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -18,7 +19,6 @@ Hero
 --------------------------- */
 
 #hero {
-  font-family: 'Poppins', sans-serif;
   color: white;
 }
 
@@ -99,6 +99,7 @@ Hero
 
 #hero .social-media .social-media-icon {
   margin: auto;
+  text-align: center;
 }
 
 /* #hero .general-info .pfp-container {
@@ -108,3 +109,109 @@ Hero
 #hero .general-info .pfp-container img {
   margin: auto;
 } */
+
+/* ---------------------------
+About
+--------------------------- */
+
+#about {
+  color: white;
+}
+
+#about .image-container {
+  margin: 0;
+}
+
+#about .image-container img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  /* margin: 1.2rem 5px 0 0; */
+}
+
+p:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* ---------------------------
+Projects
+--------------------------- */
+
+#projects {
+  color: white;
+}
+
+#projects #project-card {
+  margin: auto;
+  display: flex;
+  position: relative;
+}
+
+#projects #project-card img {
+  margin: auto;
+  border: 2px #0cf574 solid;
+}
+
+#projects #project-card button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+}
+
+#projects #project-card .overlay {
+  width: 200px;
+  height: 200px;
+  background-color: #0cf574;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects #project-card .overlay:hover {
+  opacity: 100%;
+  transition: 300ms;
+}
+
+#projects .overlay .project-name {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  color: #1f2235;
+}
+#projects .overlay .project-buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+#projects .overlay .project-buttons a {
+  color: #1f2235;
+  font-size: 0.5rem;
+  background-color: aliceblue;
+  padding: 1px 7px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2rem 0;
+}
+
+.project-tags {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#tag {
+  background-color: #1f2235;
+  padding: 0 3px;
+  border-radius: 500px;
+  font-size: 0.6rem;
+  margin: 0.3rem 0.3rem;
+}

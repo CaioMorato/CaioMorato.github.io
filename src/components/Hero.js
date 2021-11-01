@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Typewriter from 'typewriter-effect';
 // styles
 import { BsGithub, BsLinkedin, BsList, BsStackOverflow, BsEnvelope } from 'react-icons/bs';
-import pfp from '../images/no-bg-pfp.png';
+// import pfp from '../images/no-bg-pfp.png';
 
 function Hero() {
   const [showMenu, setShowMenu] = useState(false);
