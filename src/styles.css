@@ -156,20 +156,13 @@ Projects
   width: max-content;
 }
 
-#project-card:hover .overlay {
-  opacity: 100%;
-  display: flex;
-}
-
 #project-card img {
   border: 2px #0cf574 solid;
-  width: 200px;
 }
 
-.overlay {
+#project-card .overlay {
   align-items: center;
   background-color: #0cf574;
-  display: none;
   flex-flow: column;
   height: 100%;
   opacity: 0%;
@@ -178,6 +171,11 @@ Projects
   transition: 680ms;
 }
 
+#project-card:hover .overlay {
+  opacity: 100%;
+}
+
+/* 
 #projects .overlay .project-name {
   color: #1f2235;
   font-weight: bold;
@@ -213,4 +211,4 @@ Projects
   font-weight: bold;
   margin: 0.1rem 0.2rem;
   padding: 0 4px;
-}
+} */
