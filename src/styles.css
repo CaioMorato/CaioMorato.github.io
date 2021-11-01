@@ -171,7 +171,7 @@ Projects
   transition: 680ms;
 }
 
-#project-card:hover .overlay {
+#project-card .overlay {
   opacity: 100%;
 }
 
