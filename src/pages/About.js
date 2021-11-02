@@ -7,10 +7,10 @@ function About() {
     <section id="about">
       <h2>Sobre mim</h2>
       <div className="about-info">
-        <div className="image-container">
-          <img src={pfp} alt="Minha foto" />
-        </div>
         <div className="p-skills-container">
+          <div className="image-container">
+            <img src={pfp} alt="Minha foto" />
+          </div>
           <div className="p-container">
             <p>
               Me chamo Caio Morato, tenho 23 e moro em Piracicaba-SP. Comecei meus estudos em
@@ -20,16 +20,22 @@ function About() {
           </div>
           <div className="skills-container">
             <h2>Habilidades</h2>
-            <ul>
-              <li>React</li>
-              <li>Redux</li>
-              <li>Bootstrap</li>
-              <li>Jest | RTL</li>
-              <li>Node</li>
-              <li>MongoDB</li>
-              <li>SQL</li>
-              <li>Express</li>
-            </ul>
+            <div className="skills-list">
+              <ul>
+                <div className="skills-1to4">
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>Bootstrap</li>
+                  <li>Jest | RTL</li>
+                </div>
+                <div className="skills-4to8">
+                  <li>Node</li>
+                  <li>MongoDB</li>
+                  <li>SQL</li>
+                  <li>Express</li>
+                </div>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="cv-container">

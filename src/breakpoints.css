@@ -26,28 +26,37 @@
     margin: 2rem 0;
   }
 
-  #hero .general-info .sm-about p{
+  #hero .general-info .sm-about p {
     width: 40%;
     margin: 2rem 0;
     /* margin: auto; */
   }
 
+  #about .image-container  {
+    margin: 0 auto 3rem;
+  }
+
+  #about .image-container img {
+    width: 200px;
+    height: 200px;
+    border: 2px white solid;
+    border-radius: 500px;
+    background-color: #474c70;
+  }
+
   #about .p-skills-container {
     display: flex;
     margin: auto;
-  }
-
-  #about .p-skills-container .skills-container {
-    display: flex;
     flex-flow: column;
+    align-items: center;
+    justify-content: center;
   }
 
   #about .p-container {
-    width: 80%;
+    width: 50%;
   }
 
   #about .skills-container {
-    /* width: 30%; */
     text-align: center;
   }
 
@@ -55,5 +64,20 @@
     list-style: none;
     display: flex;
     flex-flow: column wrap;
+  }
+
+  #about .p-skills-container .skills-container {
+    display: flex;
+    flex-flow: column;
+    margin: 3rem auto;
+  }
+
+  #about .skills-container .skills-list ul {
+    display: flex;
+    flex-flow: row;
+  }
+
+  #about .skills-list ul div {
+    margin: 2rem;
   }
 }
