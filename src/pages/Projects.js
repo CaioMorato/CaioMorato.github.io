@@ -9,7 +9,7 @@ function Projects() {
   return (
     <section id="projects">
       <h2>Projetos</h2>
-      <div>
+      <div className="projects-container">
         <ProjectCard
           image={pixelsArt}
           name="Pixels Art"

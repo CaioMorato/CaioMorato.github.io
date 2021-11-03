@@ -22,9 +22,6 @@ function Header() {
           <a href="#projects">
             <li>Projetos</li>
           </a>
-          <a href="#contact">
-            <li>Contato</li>
-          </a>
         </ul>
       </nav>
     </header>

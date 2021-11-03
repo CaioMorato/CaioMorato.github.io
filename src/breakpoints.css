@@ -32,7 +32,7 @@
     /* margin: auto; */
   }
 
-  #about .image-container  {
+  #about .image-container {
     margin: 0 auto 3rem;
   }
 
@@ -79,5 +79,10 @@
 
   #about .skills-list ul div {
     margin: 2rem;
+  }
+
+  #projects .projects-container {
+    display: flex;
+    flex-flow: row;
   }
 }
