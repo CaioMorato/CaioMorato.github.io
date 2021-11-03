@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7165d0aa.chunk.css",
-    "main.js": "/static/js/main.080f9cea.chunk.js",
-    "main.js.map": "/static/js/main.080f9cea.chunk.js.map",
+    "main.css": "/static/css/main.dbadcf65.chunk.css",
+    "main.js": "/static/js/main.167c3c48.chunk.js",
+    "main.js.map": "/static/js/main.167c3c48.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fe324abb.js",
     "runtime-main.js.map": "/static/js/runtime-main.fe324abb.js.map",
     "static/js/2.7bd679b5.chunk.js": "/static/js/2.7bd679b5.chunk.js",
     "static/js/2.7bd679b5.chunk.js.map": "/static/js/2.7bd679b5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7165d0aa.chunk.css.map": "/static/css/main.7165d0aa.chunk.css.map",
+    "static/css/main.dbadcf65.chunk.css.map": "/static/css/main.dbadcf65.chunk.css.map",
     "static/js/2.7bd679b5.chunk.js.LICENSE.txt": "/static/js/2.7bd679b5.chunk.js.LICENSE.txt",
     "static/media/countries-api.6fa82800.png": "/static/media/countries-api.6fa82800.png",
     "static/media/cv-morato.d6c61cbb.pdf": "/static/media/cv-morato.d6c61cbb.pdf",
-    "static/media/no-bg-pfp.61066dcb.png": "/static/media/no-bg-pfp.61066dcb.png",
+    "static/media/no-bg-pfp.2f157cec.png": "/static/media/no-bg-pfp.2f157cec.png",
     "static/media/pixels-art.25dc4289.png": "/static/media/pixels-art.25dc4289.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fe324abb.js",
     "static/js/2.7bd679b5.chunk.js",
-    "static/css/main.7165d0aa.chunk.css",
-    "static/js/main.080f9cea.chunk.js"
+    "static/css/main.dbadcf65.chunk.css",
+    "static/js/main.167c3c48.chunk.js"
   ]
 }
