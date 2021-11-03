@@ -4,6 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 import countries from '../images/countries-api.png';
 import pixelsArt from '../images/pixels-art.png';
 import trybewallet from '../images/trybewallet.png';
+import restapi from '../images/restapi.png';
 
 function Projects() {
   return (
@@ -30,6 +31,13 @@ function Projects() {
           github="https://github.com/CaioMorato/TrybeWallet"
           deploy="https://caiomorato.github.io/TrybeWallet/"
           tags={['HTML', 'CSS', 'React', 'Redux']}
+        />
+        <ProjectCard
+          image={restapi}
+          name="RestAPI-MongoDB"
+          github="https://github.com/CaioMorato/Rest-API_mongoDB"
+          deploy="https://github.com/CaioMorato/Rest-API_mongoDB"
+          tags={['Node', 'Express']}
         />
       </div>
     </section>
