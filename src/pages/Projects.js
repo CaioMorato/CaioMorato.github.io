@@ -5,6 +5,7 @@ import countries from '../images/countries-api.png';
 import pixelsArt from '../images/pixels-art.png';
 import trybewallet from '../images/trybewallet.png';
 import restapi from '../images/restapi.png';
+import githubSearch from '../images/github-search.png';
 
 function Projects() {
   return (
@@ -38,6 +39,13 @@ function Projects() {
           github="https://github.com/CaioMorato/Rest-API_mongoDB"
           deploy="https://github.com/CaioMorato/Rest-API_mongoDB"
           tags={['Node', 'Express']}
+        />
+        <ProjectCard
+          image={githubSearch}
+          name="Github Search"
+          github="https://github.com/CaioMorato/github-search"
+          deploy="https://caiomorato.github.io/github-search"
+          tags={['HTML', 'CSS', 'Tailwind', 'React', 'ContextAPI']}
         />
       </div>
     </section>
