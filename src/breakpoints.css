@@ -83,6 +83,11 @@
 
   #projects .projects-container {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  #projects #project-card {
+    margin: 1.5rem 4rem;
   }
 }
